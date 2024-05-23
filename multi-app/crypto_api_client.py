@@ -29,7 +29,6 @@ class CryptoAPIClient:
             return f"Error occurred: {e}"
 
     def get_latest_crypto_data(self, symbol: str) -> Union[Dict, str]:
-        symbol = symbol.upper()
         url = f"{self.BASE_URL}/v1/cryptocurrency/listings/latest"
         params = {"start": "1", "limit": "100", "convert": "USD"}
 
