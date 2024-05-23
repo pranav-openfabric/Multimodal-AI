@@ -21,6 +21,7 @@ stt_proxy = Proxy(STT_PROXY_LINK, "STT proxy")
 # Initialize CryptoAPIClient
 crypto_client = CryptoAPIClient()
 
+
 def execute(request: InputClass, ray: Ray, state: State) -> OutputClass:
     text_input = request.text
     voice_input = request.voice
@@ -43,22 +44,26 @@ def execute(request: InputClass, ray: Ray, state: State) -> OutputClass:
 
     # Extract cryptocurrency from user query
     crypto = extract_crypto_from_query(user_input)
+    ray.message(MessageType.INFO, content=crypto)
     out = "Here is the latest information I got from API: "
     
+
     if crypto:
+    # Get symbol of the cryptocurrency
         symbol = crypto_client.get_crypto_symbol(crypto)
-        if symbol and symbol != "Cryptocurrency not found":
+        if symbol != "Cryptocurrency not found":
+            # Get latest data of the cryptocurrency
             data = crypto_client.get_latest_crypto_data(symbol)
-            if isinstance(data, dict):
-                for key, value in data.items():
-                    out += f"{key}: {value}, "
-                user_input += out
+            if data != "Cryptocurrency not found":
+                # Combine cryptocurrency data with user query
+                for info in data:
+                    out += f"{info}: {data[info]}, "
+                    user_input += out
+
             else:
-                user_input = text_input
-        else:
-            user_input = text_input  # Send original query to LLM if crypto data not found.
-        
-    
+                user_input = text_input  # Send original query to LLM if crypto data not found.
+            
+
     if attachment is not None:
         if not user_input:
             ray.message(MessageType.INFO, content="Only attachment found. Understanding the image...")
