@@ -1,0 +1,9 @@
+{
+  "$type" : "subset",
+  "$version" : "1.0",
+  "$schema" : "dc8f06af066e4a7880a5938933236037",
+  "$id" : "bd8f14ef44cb7b1252c8d32f5a7e2729",
+  "$author" : "Maharshi",
+  "description" : "Define subset for MultiInput concept",
+  "subsets" : [ ]
+}

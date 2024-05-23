@@ -1,0 +1,42 @@
+{
+  "$version" : "1.0",
+  "$schema" : "dc8f06af066e4a7880a5938933236037",
+  "$author" : "Maharshi",
+  "$name" : "MultiOntology",
+  "$description" : null,
+  "storage" : {
+    "bd8f14ef44cb7b1252c8d32f5a7e2729" : {
+      "CONNECTION" : "connection/bd8f14ef44cb7b1252c8d32f5a7e2729.json",
+      "VALIDATION" : "validation/bd8f14ef44cb7b1252c8d32f5a7e2729.json",
+      "ENCODING" : "encoding/bd8f14ef44cb7b1252c8d32f5a7e2729.json",
+      "INSTRUCTION" : "instruction/bd8f14ef44cb7b1252c8d32f5a7e2729.json",
+      "SUBSET" : "subset/bd8f14ef44cb7b1252c8d32f5a7e2729.json",
+      "RESTRICTION" : "restriction/bd8f14ef44cb7b1252c8d32f5a7e2729.json",
+      "STRUCTURE" : "structure/bd8f14ef44cb7b1252c8d32f5a7e2729.json",
+      "DEFAULTS" : "defaults/bd8f14ef44cb7b1252c8d32f5a7e2729.json",
+      "NAMING" : "naming/bd8f14ef44cb7b1252c8d32f5a7e2729.json"
+    },
+    "b2728e988340dba271390e56a550b598" : {
+      "CONNECTION" : "connection/b2728e988340dba271390e56a550b598.json",
+      "VALIDATION" : "validation/b2728e988340dba271390e56a550b598.json",
+      "ENCODING" : "encoding/b2728e988340dba271390e56a550b598.json",
+      "INSTRUCTION" : "instruction/b2728e988340dba271390e56a550b598.json",
+      "SUBSET" : "subset/b2728e988340dba271390e56a550b598.json",
+      "RESTRICTION" : "restriction/b2728e988340dba271390e56a550b598.json",
+      "STRUCTURE" : "structure/b2728e988340dba271390e56a550b598.json",
+      "DEFAULTS" : "defaults/b2728e988340dba271390e56a550b598.json",
+      "NAMING" : "naming/b2728e988340dba271390e56a550b598.json"
+    },
+    "d2c69e486fc48a311ed8b8ba1aea8b8d" : {
+      "CONNECTION" : "connection/d2c69e486fc48a311ed8b8ba1aea8b8d.json",
+      "VALIDATION" : "validation/d2c69e486fc48a311ed8b8ba1aea8b8d.json",
+      "ENCODING" : "encoding/d2c69e486fc48a311ed8b8ba1aea8b8d.json",
+      "INSTRUCTION" : "instruction/d2c69e486fc48a311ed8b8ba1aea8b8d.json",
+      "SUBSET" : "subset/d2c69e486fc48a311ed8b8ba1aea8b8d.json",
+      "RESTRICTION" : "restriction/d2c69e486fc48a311ed8b8ba1aea8b8d.json",
+      "STRUCTURE" : "structure/d2c69e486fc48a311ed8b8ba1aea8b8d.json",
+      "DEFAULTS" : "defaults/d2c69e486fc48a311ed8b8ba1aea8b8d.json",
+      "NAMING" : "naming/d2c69e486fc48a311ed8b8ba1aea8b8d.json"
+    }
+  }
+}

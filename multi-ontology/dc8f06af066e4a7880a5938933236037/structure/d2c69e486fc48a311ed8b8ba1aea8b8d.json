@@ -1,0 +1,18 @@
+{
+  "$type" : "structure",
+  "$version" : "1.0",
+  "$schema" : "dc8f06af066e4a7880a5938933236037",
+  "$id" : "d2c69e486fc48a311ed8b8ba1aea8b8d",
+  "$author" : "Maharshi",
+  "description" : "Define structure for MultiOutput concept",
+  "name" : "MultiOutput",
+  "classification" : null,
+  "extends" : null,
+  "selfCardinality" : null,
+  "properties" : {
+    "response" : "Text",
+    "attachment" : "Blob"
+  },
+  "cardinality" : { },
+  "inclusion" : { }
+}

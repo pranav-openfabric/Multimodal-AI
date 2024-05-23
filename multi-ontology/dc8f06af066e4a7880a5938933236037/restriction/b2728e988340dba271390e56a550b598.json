@@ -1,0 +1,9 @@
+{
+  "$type" : "restriction",
+  "$version" : "1.0",
+  "$schema" : "dc8f06af066e4a7880a5938933236037",
+  "$id" : "b2728e988340dba271390e56a550b598",
+  "$author" : "Maharshi",
+  "description" : "Define restriction for MultiConfig concept",
+  "restrictions" : [ ]
+}

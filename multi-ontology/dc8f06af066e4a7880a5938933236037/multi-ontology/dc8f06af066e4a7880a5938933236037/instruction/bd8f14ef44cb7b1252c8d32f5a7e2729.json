@@ -1,0 +1,20 @@
+{
+  "$type" : "instruction",
+  "$version" : "1.0",
+  "$schema" : "dc8f06af066e4a7880a5938933236037",
+  "$id" : "bd8f14ef44cb7b1252c8d32f5a7e2729",
+  "$author" : "Maharshi",
+  "description" : "Define instruction for MultiInput concept",
+  "locale" : "en_US",
+  "instructions" : {
+    "text": "Write/Ask anything here",
+    "voice": "Speak/Ask anything here",
+    "option": "Choose the input type",
+    "attachment": "Want to upload an Image? Do it here"
+  },
+  "display" : {
+    "text": "option=='textInput'",
+    "voice": "option=='voiceInput'"
+  },
+  "layout" : { }
+}
