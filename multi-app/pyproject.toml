@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "multi-app"
+version = "1.0"
+description = "'Multimodal AI'"
+authors = ["Maharshi","Pranav"]
+
+[tool.poetry.dependencies]
+python = "^3.8.1"
+nltk = "3.8.1"
+openfabric-pysdk = "0.2.10"
+langchain = "0.1.7"
+duckduckgo-search = "5.3.1b1"
+spacy = "^3.7.4"
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+spacy = "^3.7.2"
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[[tool.poetry.source]]
+name = "node2"
+url = "https://repo.node2.openfabric.network/index"
+priority = "supplemental"

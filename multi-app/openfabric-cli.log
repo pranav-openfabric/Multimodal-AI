@@ -1,0 +1,4 @@
+09-05-2024 11:58:33.871 [main] INFO  a.o.toolkit.cli.util.PackCommand.call - Packing multi-app to /mnt/wsl/docker-desktop-bind-mounts/Ubuntu-22.04/f22f87365a65c921cdd22e8a77d5c7877a1c82d55d57a6e7e01c8db9478b581a/multi-app/./multi-app/multi-app.tar
+14-05-2024 05:32:40.757 [main] INFO  a.o.toolkit.cli.util.PackCommand.call - Packing multi-app to /mnt/c/Users/Pranav/Documents/openfabric/aiapp-multimodal-ai-main/multi-app/./multi-app/multi-app.tar
+14-05-2024 05:33:17.701 [main] INFO  a.o.toolkit.cli.util.PackCommand.call - Packing multi-app to /mnt/c/Users/Pranav/Documents/openfabric/aiapp-multimodal-ai-main/multi-app/./multi-app/multi-app.tar
+14-05-2024 05:34:37.235 [main] INFO  a.o.toolkit.cli.util.PackCommand.call - Packing multi-app to /mnt/c/Users/Pranav/Documents/openfabric/aiapp-multimodal-ai-main/multi-app/./multi-app/multi-app.tar
